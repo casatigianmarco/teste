@@ -24,8 +24,8 @@
 <p><code>Seu arquivo Readme.md deve conter: </code></p>
 <ul>
 <li>Informação de como executar o seu código, descrevendo as rotas que criou e seus contratos.</li>
-<li>Instruções para executar os testes ( preferencialmente queremos fazer isto via linha de comando )</li>
-<li>Os algoritmos estarão na pasta Algoritmos, você é livre para entregá-los na estrutura que desejar. ( incluso no projeto, somente um arquivo de texto, uma classe, um console application, fique a vontade )</li>
+<li>Instruções para executar os testes</li>
+<li>Os algoritmos estarão na pasta Algoritmos, você é livre para entregá-los na estrutura que desejar. (incluso no projeto, somente um arquivo de texto, uma classe, um console application, fique a vontade)</li>
 </ul>
 <h1></h1>
 <p><strong>Algoritmos:</strong></p>
@@ -37,14 +37,14 @@ e retornar o índice do primeiro item duplicado.
 </code></pre>
 <h1></h1>
 <p><code>Palindromo</code></p>
-<pre><code>Definição: Um palindromo é um string que pode ser lida da mesma forma de trás para frente. Por exemplo, "abcba" ou "arara" é um palindromo.
+<pre><code>Definição: Um palindromo é uma string que pode ser lida da mesma forma de trás para frente. Por exemplo, "abcba" ou "arara" é um palindromo.
 
 o que é Palindromo? -&gt; https://pt.wikipedia.org/wiki/Pal%C3%ADndromo
  
 Faça um método que deve receber uma string como parâmetro e retornar um bool informando se é palíndromo ou não.
 </code></pre>
 <h1></h1>
-<p>**Agora você deve contruir uma API que contenha: (pode usar net core ou clássico ) **</p>
+<p>**Agora você deve construir uma API que contenha: (pode usar net core ou clássico) **</p>
 <pre><code>- Uma funcionalidade para fazer login.
 - Uma funcionalidade para cadastrar novas cidades:
   - As cidades devem contar no mínimo com:
@@ -52,13 +52,13 @@ Faça um método que deve receber uma string como parâmetro e retornar um bool 
     - Ex: 
       - {"Nome": "A", "Fronteira": ["B", "E"]}
       - {"Nome": "São José", "Fronteira": ["Florianópolis", "Palhoça"]}
-- Um meio para retornar todas as cidades já cadastradas ( essa não precisa estar autenticado )
+- Um meio para retornar todas as cidades já cadastradas (essa não precisa estar autenticado)
 - Um meio para procurar uma cidade especifica
 - Um meio que retorne as cidades que fazem fronteira com uma cidade específica
   - Ex: Quem faz fronteira com a Cidade B?
 - Retornar a soma dos habitantes de um conjunto de cidades
   - Ex: cidade A,B,C possuem 50 mil habitantes
-- Um método pra eu poder atualizar os dados de uma cidade, por exemplo mudar a quantidade de habitantes.
+- Um método para atualizar os dados de uma cidade, por exemplo mudar a quantidade de habitantes.
 - O caminho que devo fazer de uma cidade a outra
   - Ex: sair de cidade Buenos aires e ir até a cidade Florianópolis
 </code></pre>
